@@ -1,5 +1,4 @@
-"use client";
-import { ImageUploader } from "@/components/image-uploader";
+import { ClientComponent } from "@/components/client-component";
 
 export default function Home() {
   return (
@@ -33,7 +32,7 @@ export default function Home() {
             zod
           </a>
         </p>
-        <ImageUploader />
+        <ClientComponent />
       </div>
       <div className="space-y-1">
         <p className="text-center">
@@ -60,6 +59,3 @@ export default function Home() {
     </main>
   );
 }
-
-// <main className="bg-gradient-to-br min-h-screen from-[#2c3e50] to-[#3498db]"></main>
-// <main className="bg-gradient-to-br min-h-screen text-slate-800 from-[#50c9c3] to-[#96deda]"></main>
