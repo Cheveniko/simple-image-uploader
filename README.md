@@ -6,4 +6,6 @@ It has image validation built in and customizable styles with [tailwindcss](http
 
 The image is validated inside a shadcn Form using zod, react-drop-zone and react-hook-form.
 
+This component only works on client components and can't be used directly from a Nextjs page or layout component
+
 ## Demo
