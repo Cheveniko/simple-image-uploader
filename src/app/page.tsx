@@ -46,7 +46,7 @@ export default function Home() {
           </a>
         </p>
         <a
-          href=""
+          href="https://github.com/Cheveniko/simple-image-uploader"
           target="_blank"
           className="mx-auto flex w-fit items-center justify-center gap-x-2 text-center"
         >
