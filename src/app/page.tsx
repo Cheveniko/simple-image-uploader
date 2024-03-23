@@ -14,14 +14,14 @@ export default function Home() {
             target="_blank"
             className="transition-all hover:underline"
           >
-            shadcn/ui
+            shadcn/ui,
           </a>{" "}
           <a
             href="https://react-dropzone.js.org/"
             target="_blank"
             className="transition-all hover:underline"
           >
-            react-drop-zone
+            react-dropzone
           </a>{" "}
           and{" "}
           <a
