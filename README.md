@@ -6,6 +6,11 @@ It has image validation built in and customizable styles with [tailwindcss](http
 
 The image is validated inside a shadcn Form using zod, react-drop-zone and react-hook-form.
 
-This component only works on client components and should not be used directly from a Nextjs page or layout component
+### Caveats
 
-## Demo
+- This component only works on client components and should not be used directly from a Nextjs page or layout component
+- You need to be on NodeJs 20.x to use the File Interface which zod uses to verify the user uploads an image. If you can't update to Node 20.x you can skip that validation and use the native browser validation using required on the Input component.
+
+### Demo
+
+https://simple-image-uploader-bice.vercel.app/
