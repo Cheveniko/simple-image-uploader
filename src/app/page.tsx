@@ -1,4 +1,4 @@
-import { ClientComponent } from "@/components/client-component";
+import { ImageUploader } from "@/components/image-uploader";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
             target="_blank"
             className="transition-all hover:underline"
           >
-            shadcn/ui,
+            shadcn/ui
           </a>{" "}
           <a
             href="https://react-dropzone.js.org/"
@@ -32,7 +32,7 @@ export default function Home() {
             zod
           </a>
         </p>
-        <ClientComponent />
+        <ImageUploader />
       </div>
       <div className="space-y-1">
         <p className="text-center">
