@@ -14,3 +14,7 @@ The image is validated inside a shadcn Form using zod, react-drop-zone and react
 ### Demo
 
 https://simple-image-uploader-bice.vercel.app/
+
+### Svelte version
+
+https://svelte-image-uploader.vercel.app/
